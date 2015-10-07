@@ -1,0 +1,22 @@
+{
+  "name": "iBooksRemote",
+  "version": "1.0.0",
+  "description": "Let's you use your Apple Remote Control to flip pages in iBooks for MAC OS X",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . iBooksRemote --prune --asar --overwrite --platform=darwin --arch=x64 --version=0.33.6 --out=build --icon=../media/icon.icns --ignore=node_modules/electron-prebuilt --ignore='node_modules/(electron-packager|electron-prebuilt|electron-rebuild)' --ignore=.git"
+  },
+  "author": "Bryan Berger",
+  "license": "MIT",
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "fix-path": "^1.1.0",
+    "node-apple-remote": "https://github.com/decapyre/node-apple-remote.git"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.33.6",
+    "electron-rebuild": "^1.0.1"
+  }
+}
