@@ -24,6 +24,7 @@ Follow this [guide](https://github.com/sindresorhus/guides/blob/master/launch-ap
 
 ```
 $ npm install
+$ npm run rebuild-packages
 ```
 
 ### Run

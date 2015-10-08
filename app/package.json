@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . iBooksRemote --prune --asar --overwrite --platform=darwin --arch=x64 --version=0.33.6 --out=build --icon=../media/icon.icns --ignore=node_modules/electron-prebuilt --ignore='node_modules/(electron-packager|electron-prebuilt|electron-rebuild)' --ignore=.git"
+    "build": "electron-packager . iBooksRemote --prune --asar --overwrite --platform=darwin --arch=x64 --version=0.33.6 --out=build --icon=../media/icon.icns --ignore=node_modules/electron-prebuilt --ignore='node_modules/(electron-packager|electron-prebuilt|electron-rebuild)' --ignore=.git",
+    "rebuild-packages": "node ./node_modules/.bin/electron-rebuild"
   },
   "author": "Bryan Berger",
   "license": "MIT",
