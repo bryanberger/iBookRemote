@@ -4,6 +4,11 @@
 
 *Built with Node Electron*
 
+## Install Binary with Homebrew Cask
+```
+$ brew cask install ibooksremote
+```
+
 ## How does it work?
 
 The Apple Remote (white or aluminium version) first needs to be [paired](https://support.apple.com/kb/PH19087) with your mac. Once paired you may launch the iBooks Remote application and access it via the menubar. You will see a Menubar Item that will let you connect and take control of all IR input from the remote. You will also be able to release control of the remote so you may use it for its default purpose (iTunes, QuickTime, etc).
